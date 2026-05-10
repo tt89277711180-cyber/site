@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ремонт под ключ в Краснодаре</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: #0b0f17;
+    color: #fff;
+}
+
+/* HERO */
+.hero {
+    padding: 120px 20px;
+    text-align: center;
+    background: radial-gradient(circle at top, #1b2a4a, #0b0f17);
+}
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 26px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary {
+    background: #ffd000;
+    color: #000;
+}
+
+.secondary {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #ffd000;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ffd000;
+}
+
+/* STEPS */
+.step {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* FORM */
+.form {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 14px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #ffd000;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    opacity: 0.6;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+    <h1>Ремонт квартир, домов и офисов под ключ в Краснодаре</h1>
+    <p>Фиксированная цена до начала работ. Без скрытых доплат, с контролем каждого этапа и полной прозрачностью процесса.</p>
+
+    <div class="buttons">
+        <a href="#form" class="btn primary">Получить расчёт</a>
+        <a href="#services" class="btn secondary">Посмотреть услуги</a>
+    </div>
+</div>
+
+<section>
+    <h2>Почему нам доверяют</h2>
+    <div class="grid">
+        <div class="card">✔ 13+ лет опыта</div>
+        <div class="card">✔ Фиксированная смета</div>
+        <div class="card">✔ Без скрытых платежей</div>
+        <div class="card">✔ Фото/видео отчёты</div>
+        <div class="card">✔ Работа под ключ</div>
+        <div class="card">✔ Соблюдение сроков</div>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Услуги</h2>
+    <div class="grid">
+        <div class="card">Ремонт квартир</div>
+        <div class="card">Ремонт домов</div>
+        <div class="card">Ремонт офисов</div>
+        <div class="card">Электрика</div>
+        <div class="card">Сантехника</div>
+        <div class="card">Отделка</div>
+    </div>
+</section>
+
+<section>
+    <h2>Как мы работаем</h2>
+    <div class="grid">
+        <div class="step">1. Заявка и консультация</div>
+        <div class="step">2. Выезд и замер</div>
+        <div class="step">3. Фиксация цены</div>
+        <div class="step">4. Выполнение работ</div>
+        <div class="step">5. Контроль и отчёты</div>
+        <div class="step">6. Сдача объекта</div>
+    </div>
+</section>
+
+<section id="form">
+    <h2>Оставить заявку</h2>
+
+    <div class="form">
+        <input placeholder="Имя">
+        <input placeholder="Телефон">
+        <textarea placeholder="Что нужно сделать?" rows="4"></textarea>
+        <button onclick="alert('Заявка отправлена')">Отправить</button>
+    </div>
+</section>
+
+<footer>
+    © Ремонт под ключ Краснодар
+</footer>
+
+</body>
+</html>
